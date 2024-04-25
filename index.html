@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <header>
+    <div class="navbar navbar-expand-lg">
+        <div class="navbar-brand mx-4 mt-2">
+            <img src="img/logo.png" alt="">
+        </div>
+        <button class="navbar-toggler me-3 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#mainnav"
+            aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainnav">
+            <div class="linkcont">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" style="color: black;font-weight: 600;" href="https://praveen5102000.github.io/walthome/">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link active" style="color: black;font-weight: 600;" href="https://praveen5102000.github.io/waltcontact/">CONTACT US</a></li>
+                </ul>
+            </div>
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+    <section id="con">
+        <div class="overlay"></div>
+    <form onsubmit="sendEmail(); reset(); return false;">
+        <div class="con-head">
+        <h3>Contact Us</h3></div>
+        <div class="cont">
+        <div class="mb-3">
+            <label for="fname" class="form-label">Name</label>
+            <input type="text" name="name" id="fname" class="form-control inp">
+          </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" name="eemail" id="email" class="form-control inp">
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="text" name="pphone" id="phone" class="form-control inp">
+        </div>
+        <div class="mb-3">
+            <label for="msg" class="form-label">Message</label>
+            <textarea id="msg" name="mmsg" class="form-control"></textarea>
+          </div>
+       <div class="sub">
+        <button type="submit" class="btn btn-primary">Send Your Message</button></div>
+        </div>
+      </form>
+    </section>
+
+    <section class="maps">
+    <div class="container-fluid map">
+        <div class="left">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1652.7745550680525!2d-118.25082671128438!3d34.05543544328901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c64d9fbb11d3%3A0xb3728c2c3bff31b0!2sWalt%20Disney%20Concert%20Hall!5e0!3m2!1sen!2sin!4v1714040977221!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="right">
+            <div class="hall">
+                <img src="img/hall.jpeg">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <footer class="text-center text-lg-start text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <div class="me-5 d-none d-lg-block">
+            <span class="text-dark">Get connected with us on social networks:</span>
+          </div>
+      
+          <div class="ft">
+            <a href="" class="me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="" class="me-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </section>
+      
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 text-dark">
+                  <i class="fas fa-gem me-3"></i>Walt Disney
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer content. Lorem ipsum
+                  dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+           
+          
+             
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 text-dark">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 Copyright:
+          <a class="text-reset fw-bold" href="https://www.disney.in/">waltdisney.com</a>
+        </div>
+      </footer>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script>
+        function sendEmail(){
+            
+            const fname = document.getElementById("fname");
+            const email = document.getElementById("email");
+            const phone = document.getElementById("phone");
+            const msg = document.getElementById("msg");
+
+            const ebody = `
+            <b> Name: </b> ${fname.value}
+            <br>
+            <b> Email: </b> ${email.value}
+            <br>
+            <b> Phone Number: </b> ${phone.value}
+            <br>
+            <b> Message: </b> ${msg.value}
+            `
+            Email.send({
+    SecureToken : "10c195c3-f67b-4c1f-ac7c-ccd2d9510f7e ",
+    To : 'praveennatarajan98765@gmail.com',
+    From : "praveennatarajan98765@gmail.com",
+    Subject : "Enquiry",
+    Body : ebody
+}).then(
+  message => alert(message)
+);
+        }
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

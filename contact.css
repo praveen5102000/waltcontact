@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    width: 100%;
+    z-index: 2;
+    background-image: linear-gradient(30deg, violet, #3cff3c, #ffce75, white);
+}
+
+.nav-item {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.linkitems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkcont {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-link {
+    border: 1px solid rgba(24, 1, 1, 0);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+
+.nav-link.active{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.logsch {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 55%;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.login i {
+    margin-left: 40px;
+}
+
+.login i a {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+}
+
+
+.navbar-brand img {
+    width: 120px;
+    height: auto;
+}
+
+
+
+form {
+    width: 35%;
+    height: 550px;
+    background-color: white;
+    z-index: 1;
+    margin-top: 6em;
+    border-radius: 20px;
+}
+section#con {
+    display: flex;
+    justify-content: center;
+}
+.con-head {
+    margin-top: 2em;
+    text-align: center;
+}
+.sub {
+    text-align: center;
+    margin: 2em 0;
+}
+input.form-control {
+    border: none;
+    border-bottom: 2px solid blue;
+    border-radius: 0;
+    width: 100%;
+    height: 30px;
+}
+textarea.form-control {
+    border: none;
+    border-bottom: 2px solid blue;
+    border-radius: 0;
+    width: 100%;
+    height: 30px;
+}
+#con{
+    background-image: url(img/cbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.cont {
+    padding: 1em 4em;
+}
+.inp{
+    border: none;
+    border-bottom: 5px solid red;
+}
+
+
+
+
+section#class {
+    background-color: white;
+}
+
+.faci-img img {
+    width: 300px;
+    height: auto;
+}
+.fminb {
+    padding: 1em 0;
+}
+.fminbs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.faci-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    margin: 0 2%;
+}
+.faci-img {
+    text-align: center;
+    position: relative;
+    z-index: 9;
+}
+.faci-img img {
+    width: 300px;
+    height: auto;
+    border: 15px solid #FFF5F3;
+    border-radius: 50%;
+}
+.user1 {
+    display: flex;
+    margin-right: 0em;
+    gap: 20px;
+    padding: 1em 0;
+}
+.user1-img {
+    width: 10%;
+}
+.user1-img img {
+    width: 45px;
+    border-radius: 50%;
+}
+.user1-para {
+    padding-top: 6px;
+}
+.user1-para h4 {
+    margin-bottom: 5px;
+}
+.user1-para h5{
+    opacity: .5;
+}
+.user1-do {
+    text-align: right;
+    width: 50%;
+    margin-top: 14px;
+}
+.user1-do span {
+    color: white;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 8px 10px;
+}
+.fbbox {
+    position: relative;
+    top: 0;
+    padding-top: 1em;
+    z-index: 1;
+    padding: 14px;
+}
+.fbbox::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -57px;
+    bottom: 0;
+    background-color: #FFF5F3;
+    z-index: -1;
+    border-radius: 10px;
+}
+.fbbox h1 {
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+h6.ora {
+    
+    font-size: 16px;
+}
+h6.gre {
+   
+    font-size: 16px;
+}
+h6.yel {
+
+    font-size: 16px;
+}
+.fminb small {
+    font-size: 14px;
+    color: black;
+    opacity: .7;
+    display: block;
+    margin-top: 10px;
+}
+
+
+.ft a, .ft1 {
+    text-decoration: none;
+    color: rgb(82 56 56);
+}
+footer {
+    background-image: linear-gradient(30deg, violet, #3cff3c, #ffce75, white);
+}
+
+
+.map{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+.hall img {
+    width: 100%;
+    height: auto;
+}
+.map {
+    gap: 40px;
+    margin: 4em;
+}
+
+
+@media (max-width:1024px){
+    #con {
+        width: 100%;
+        height: 110vh;
+    }
+    form{
+        width: 78%;
+    }
+    .map{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+    .linkcont {
+        width: 54%;
+    }
+}
+
+@media (max-width:600px){
+    form{
+        height: 510px;
+    }
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+    .head {
+        font-size: 30px;
+    }
+    .linkcont {
+        width: 64%;
+    }
+ 
+}
+
+
+
